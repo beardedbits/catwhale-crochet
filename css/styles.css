@@ -2,6 +2,15 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+main {
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+}
+
 a:link, a:visited {
   color: #194798;
 }
@@ -15,10 +24,11 @@ a:active {
 }
 
 #wrapper {
+  overflow: auto;
   text-align: center;
 }
 
- #logo {
-   display: block;
-   margin: auto;
- }
+#wrapper img {
+  width: 100%;
+  height: auto;
+}
