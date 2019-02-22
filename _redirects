@@ -1,2 +1,3 @@
 # Redirect default Netlify subdomain to primary domain
-http://nifty-bose-a97050.netlify.com/* http://catwhalecrochet.com/:splat 301!
+#Commented out as the DNS hasn't propagated.
+#http://nifty-bose-a97050.netlify.com/* http://catwhalecrochet.com/:splat 301!
